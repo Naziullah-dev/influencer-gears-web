@@ -76,6 +76,10 @@ body{
 
 
     /* banner start */
+    .banner{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
     .banner .container{
     justify-content:flex-start;
     align-items: center;
@@ -107,3 +111,22 @@ body{
     /* banner end */
 
 /* header end */
+
+/* main start */
+    /* sponsor start */
+    #sponsor{
+        margin: 100px auto;
+    }
+    #sponsor .container{
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-width: 2px 0; /* top-bottom 2px, left-right 0 */
+        border-style: solid;
+        border-image: linear-gradient(to right, #C0CCDA10 0%, #C0CCDA60 50%, #C0CCDA10 100%) 1;
+    }
+
+    /* sponsor end */
+/* main end */
