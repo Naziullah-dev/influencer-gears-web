@@ -8,7 +8,7 @@ body{
     font-family: "Poppins", sans-serif;
 }
 .container{
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 .display-flex{
@@ -129,4 +129,66 @@ body{
     }
 
     /* sponsor end */
+
+
+    /* product start */
+
+    .product-card{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 30px;
+        margin: 30px auto;
+    }
+
+    .card{
+        max-width: 320px;
+        padding: 18px;
+        border-radius: 8px;
+        box-shadow: 0 0 44px rgba(0, 0, 0, 0.15);
+    }
+
+    .card h3{
+        font-size: 1.75rem;
+        font-weight: 500;
+        color: #18191F;
+    }
+    .card h4{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #18191fc9;
+    }
+    .card .rating{
+        align-items: center;
+        font-size: 0.7rem;
+        color: #18191F;
+    }
+    .card .rating p{
+        font-size: 0.9rem;
+        font-weight: 400;
+        padding-left: 5px;
+        color: #5E6366;
+        align-items: center;
+    }
+
+    .rating i{
+        color: #FB8200;
+    }
+
+    .card-img img{
+        width: 100%;
+    }
+    .product-header h2{
+        text-align: center;
+    }
+
+    .card p{
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #787885;
+    }
+
+    /* product end */
+
+
 /* main end */
